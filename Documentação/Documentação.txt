@@ -22,3 +22,47 @@ Documentação de negócio
 	- Corte de madeira (solicitado pelo cliente).
 	- Entrega da compra para o local solicitado.
 	- Montagem do produto final (solicitado pelo cliente).
+
+3.  Processos de Negócio
+	--------------------
+	- Compra de Material:
+		A empresa marceneira entra em contato com os fornecedores para realizar a compra de material de forma que o estoque 
+		seja preenchido a cada dia 10 do mês.
+
+	- Venda da Placa de Madeira:
+		Através do contato com os clientes via whatsapp, loja física ou telefone, a empresa solicita os dados do cliente
+		(nome, idade, CPF, endereço, número de telefone) e realiza a venda do material (placa de madeira).
+
+	- Corte de Madeira:
+		Após a compra da placa pelo cliente, o mesmo poderá solicitar um corte específico para aquela placa, indicando as medidas
+		desejadas, por um preço adicional. 
+
+		Através da máquina automatizada, o operador irá inserir as medidas por peça no software e logo em seguida as informações
+		serão enviadas para a máquina, que fará o corte especificado.
+
+	- Entrega
+		O cliente irá informar um endereço de entrega para sua compra (placa de madeira, corte) e a empresa realizará
+		a entrega no local. (também será possível a retirada na loja física).
+
+	- Montagem do produto final
+		Após a entrega da peça de madeira, o cliente poderá solicitar que a empresa monte o produto no local solicitado,
+		por um preço adicional.
+
+		Uma equipe proporcional ao tamanho da montagem será enviada ao local e logo em seguida a montagem será feita.
+
+4.  Regras de Negócio
+	-----------------
+	[RN001] A empresa sempre deverá conter um estoque mínimo de 600 placas de madeira.
+	[RN002] A empresa só poderá antecipar a compra de material caso o estoque tenha esgotado antes do dia 10 do mês.
+	[RN003] Os retalhos da madeira deverão ser entregues juntamente ao produto (o cliente poderá escolher se deseja receber).	
+	[RN004] Na entrega, é preciso que o cliente assine uma cópia do recibo para empresa.
+
+5.  Stakeholders
+	------------
+	Dono da Marcenaria
+	Operários
+	Equipe de Desenvolvimento
+
+6.  Vocabulário de Negócio 
+	----------------------
+	Retalho -  Parte que se tira, se corta de uma coisa, especialmente de um tecido; pedaço, fragmento.
