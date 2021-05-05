@@ -1,0 +1,24 @@
+Documentação de negócio 
+=======================
+
+	Negócio: 
+        Marcenaria.
+
+
+1.  Problema/Oportunidade
+        Foram adquiridas máquinas automatizadas para efetuar os cortes nas placas de madeira, para isso é necessário que a empresa possua um sistema 
+        próprio para o cálculo de área e perímetro para utilização das máquinas.
+
+        Por que é necessário um sistema?
+            Para agilizar o processo de corte , visto que os resultados dos cálculos serão mais rápidos com o uso de um sistema.
+        
+        Por que um sistema agilizará o processo?
+            Porque o cálculo feito a mão não será mais necessário, evitando também erros de cálculo por parte dos operadores das máquinas.
+
+2.  Atividade de negócio
+	--------------------
+	- Compra de material (placas de madeira).
+	- Venda da placa de madeira.
+	- Corte de madeira (solicitado pelo cliente).
+	- Entrega da compra para o local solicitado.
+	- Montagem do produto final (solicitado pelo cliente).
