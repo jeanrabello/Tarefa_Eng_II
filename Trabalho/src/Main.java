@@ -25,7 +25,7 @@ public class Main {
 						break;
 					case "2":
 						raio = Double.parseDouble(JOptionPane.showInputDialog("Insira o valor do raio"));
-						JOptionPane.showMessageDialog(null, "Perímetro da Circunferência: " + c.areaCircunferencia(raio));
+						JOptionPane.showMessageDialog(null, "Perímetro da Circunferência: " + c.perimetroCircunferencia(raio));
 						break;
 					default:
 						JOptionPane.showMessageDialog(null, "Escolha inválida");
